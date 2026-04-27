@@ -6,7 +6,9 @@ const inputText = document.querySelector('#inputText')
 
 const getData = () => {
     const data = localStorage.getItem('todos') || []
-    const todos = data.length > 0 ? JSON.parse(data) : []
+//    You can try using both line 10 and line 11 to see which one works best.
+      const todos = data.length > 0 ? JSON.parse(data) : []
+   // const todos = data ? JSON.parse(data) : []
     return todos
 }
 
