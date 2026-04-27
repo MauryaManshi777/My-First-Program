@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    background: linear-gradient(#ff758c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 90vh;
+    background: rgb(22, 33, 59);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 25px hsl(198, 97%, 50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.List {
+    height: 90vh;
+
+}
+
+.item {
+    background: #f8fafc;
+    color: #0f172a;
+    padding: 13px;
+    margin: 12px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Delet {
+    color: white;
+    border: solid red 1.7px;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: red;
+    width: 70px;
+}
+
+
+.edit {
+    color: white;
+    border: solid blue 1.7px;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: blue;
+    width: 70px;
+}
+
+#addBtn {
+    color: white;
+    border: solid blue 1.7px;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: blue;
+    width: 80px;
+}
+
+.inputBox {
+    display: flex;
+    color: aqua;
+    margin-top: auto;
+
+}
+
+.inputBox input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
